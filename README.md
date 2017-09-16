@@ -3,8 +3,8 @@
 ## 動作環境
 
 * PHP CLI 5.4.16 or higher
- * cURL Extention
- * mbstring Extention
+ * cURL 拡張
+ * mbstring 拡張
 
 ## 使い方
 
@@ -23,7 +23,5 @@ wrcallback() 関数内のswitch/case文が主な処理を行う場所です。
 
 
 
-## 制限事項
-
-* 時々イベントを取りこぼすことがあります
-
+## 既知の問題
+* イベントを取りこぼすことがあります
